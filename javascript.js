@@ -81,13 +81,15 @@ function multiply (number1, number2) {
 function capitalize (string) {
     let lowercase = string.toLowerCase();
     let firstLetter = lowercase[0].toUpperCase();
-    return firstLetter + lowercase.substring(1);
+    return firstLetter + lowercase.substr(1);
     console.log(capitalize)
 }
 
+/*Write a function called lastLetter that takes a string and returns the very last letter of that string:
 
-//function capitalize () {
- //   let stringLower = HOWDY.lowercase()
- //   return stringLower
-  //  let stringFirstUpper = stringLower.toUpperCase()
-   //  console.log(capitalize)}
+   lastLetter("abcd") should return "d" */
+
+function lastLetter (string) {
+    return last = string.substr(-1);
+    console.log(lastLetter)
+}
